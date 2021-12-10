@@ -1,4 +1,4 @@
-body, *, *:before, *:after {
+body, *, *:before, *::after {
     box-sizing: border-box;
 }
 
@@ -153,7 +153,7 @@ p {
     position: relative;
 }
 
-.portfolio:before {
+.portfolio::before {
     content: " ";
     display: block;
     height: 30px;
@@ -196,7 +196,7 @@ p {
 /*=========================
   Footer
  ==========================*/
-.page-footer:before {
+.page-footer::before {
     content: " ";
     display: block;
     height: 5px;
